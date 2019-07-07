@@ -52,4 +52,4 @@ Day 7: 	74%        4.71%      98.32%
 Day 8: 	80%        1.32%      99.64%
 ```
 
-The pirate is the most similar role to the suggested prankster, though it is slightly more complicated. The chance is the total percentage of winning on that given attempt, the rate is the percentage of people expected to win on said chance... The cumulative column says the total percentage of players that would have been expected to theoretically win by a given day, meaning by day 5 (or rather attempt 5) 81% of pirate players are expected to have already won.
+The pirate is the most similar role to the suggested prankster, though it is slightly more complicated. The chance is the total percentage of winning on that given attempt, the rate is the percentage of people expected to win on said chance... The cumulative column says the total percentage of players that would have been expected to theoretically win by a given day, meaning by day 5 (or rather attempt 5) 81% of pirate players are expected to have already won, and the prankster is at 89.63% by day 5.
