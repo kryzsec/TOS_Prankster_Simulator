@@ -38,14 +38,18 @@ to be added
 2) Average win day
 
 
-# Comparison to the pirate
+# Probabilistic Comparison to the pirate
 
-1 − ((2/3)^(n−1))(23+n3)
+```
+p(n) = 1 − ((2/3)^(n−1))(2/3+n/3) where p(n) is the probability given a number of attempts
+Day     Chance    Rate        Cumulative
+Day 2: 	11%       11.00%      11%
+Day 3: 	26%       23.14%      34.14%
+Day 4: 	40%       26.34%      60.48%
+Day 5: 	54%       21.33%      81.81%
+Day 6: 	65%       11.80%      93.61%
+Day 7: 	74%        4.71%      98.32%
+Day 8: 	80%        1.32%      99.64%
+```
 
-Day 2: 	11%
-Day 3: 	26%
-Day 4: 	40%
-Day 5: 	54%
-Day 6: 	65%
-Day 7: 	74%
-Day 8: 	80% 
+The pirate is the most similar role to the suggested prankster, though it is slightly more complicated. The chance is the total percentage of winning on that given attempt, the rate is the percentage of people expected to win on said chance... The cumulative column says the total percentage of players that would have been expected to theoretically win by a given day, meaning by day 5 (or rather attempt 5) 81% of pirate players are expected to have already won.
