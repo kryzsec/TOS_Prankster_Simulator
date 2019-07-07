@@ -25,7 +25,13 @@ Day 9+ 4112 | 0.41%
 # Example Output of 100,000,000 tests:
 
 ```
-I forgot to save the output, will be added later
+Day 3: 42177507 | 42.18%
+Day 4: 31642741 | 31.64%
+Day 5: 15824082 | 15.82%
+Day 6: 6595952 | 6.60%
+Day 7: 2473345 | 2.47%
+Day 8: 864593 | 0.86%
+Day 9+ 421780 | 0.42%
 ```
 
 # Theoretical Values
