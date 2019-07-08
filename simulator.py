@@ -9,11 +9,11 @@ d7 = 0
 d8 = 0
 d9p = 0
 
-nm = 100000000
+nm = 100000
 
 
 def roll():
-	return randint(1,4);
+	return randint(1,10);
 
 def count():
 	num = 0
@@ -21,11 +21,14 @@ def count():
 	while(num<3):
 		n2+=1
 		r = roll()
-		if r == 4:
+		if r == 10:
 			pass
 		else:
 			num+=1
 	return n2
+
+def avg_win_day():
+	return (d3*3+d4*4+d5*5+d6*6+d7*7+d8*8+d9p*9)/nm
 
 temp = 0
 for i in range(nm):
@@ -46,6 +49,6 @@ for i in range(nm):
 		d9p+=1
 
 print("Day 3: {} | {:.2f}%\nDay 4: {} | {:.2f}%\nDay 5: {} | {:.2f}%\nDay 6: {} | {:.2f}%\nDay 7: {} | {:.2f}%\nDay 8: {} | {:.2f}%\nDay 9+ {} | {:.2f}%".format(d3, d3/nm*100,d4, d4/nm*100,d5, d5/nm*100,d6, d6/nm*100,d7, d7/nm*100,d8, d8/nm*100,d9p, d9p/nm*100))
-
+print("Win day average is: {}".format(avg_win_day()))
 
 
