@@ -44,14 +44,19 @@ Day 7:  5.77%
 Day 8:  2.31%
 Day 9:  0.87%
 ```
+
+Note that the theoretical values do not match up with the simulated values, that is because they are each a measure of something slightly different but both descrie the same thing. The product of the theoretical values multiplied by the test population will result in approximately the simulated test population values. 
+
 # Formula for calcualting theoretical values
 <b><i>P(y) = nCy×p<sup>y</sup>q<sup>n-y</sup></i></b>
 
 Where: 
+```
 n = the number of attempts
 y = the number of successes (3)
 p = the probability of a success (0.75)
 q = the probability of a failure (0.25)
+```
 
 # Features to be added:
 1) Cumulative probability (the probability of winning at or before that day)
