@@ -35,9 +35,17 @@ Day 9+ 421780 | 0.42%
 ```
 
 # Theoretical Values
-to be added
+```
+Day 3: 42.19%
+Day 4: 42.19%
+Day 5: 26.37%
+Day 6: 13.18%
+Day 7:  5.77%
+Day 8:  2.31%
+Day 9:  0.87%
+```
 # Formula for calcualting theoretical values
-to be added
+# *P(y) = nCy×p<sup>y</sup>q<sup>n-y</sup>
 
 # Features to be added:
 1) Cumulative probability (the probability of winning at or before that day)
