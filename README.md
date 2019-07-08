@@ -45,7 +45,13 @@ Day 8:  2.31%
 Day 9:  0.87%
 ```
 # Formula for calcualting theoretical values
-# *P(y) = nCy×p<sup>y</sup>q<sup>n-y</sup>
+<b><i>P(y) = nCy×p<sup>y</sup>q<sup>n-y</sup></i></b>
+
+Where: 
+n = the number of attempts
+y = the number of successes (3)
+p = the probability of a success (0.75)
+q = the probability of a failure (0.25)
 
 # Features to be added:
 1) Cumulative probability (the probability of winning at or before that day)
