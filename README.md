@@ -58,10 +58,6 @@ p = the probability of a success (0.75)
 q = the probability of a failure (0.25)
 ```
 
-# Features to be added:
-1) Cumulative probability (the probability of winning at or before that day)
-2) Average win day
-
 
 # Probabilistic Comparison to the pirate
 
